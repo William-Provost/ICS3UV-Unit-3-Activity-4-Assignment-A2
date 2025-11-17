@@ -11,7 +11,7 @@ const MIN_WEIGHT: number = 77.0;
 const MAX_WEIGHT: number = 105.0;
 
 // Input
-let weight: number = parseFloat(prompt("How much do you weigh?") || "0");
+const weight: number = parseFloat(prompt("How much do you weigh?") || "0");
 
 // Decision
 if (weight >= MIN_WEIGHT && weight <= MAX_WEIGHT) {
